@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanvas - AI Media Generation</title>
+</head>
+<body>
+    <h1>Kanvas AI - Media Generation</h1>
+    <form id="mediaForm">
+        <label for="inputData">Enter Media Input (Image, Text, etc.):</label>
+        <input type="text" id="inputData" name="inputData">
+        <button type="submit">Generate Media</button>
+    </form>
+
+    <div id="generatedMedia">
+        <h2>Generated Media</h2>
+        <p id="mediaResult">Your generated media will appear here...</p>
+    </div>
+
+    <script>
+        const form = document.getElementById('mediaForm');
+        const inputDataField = document.getElementById('inputData');
+        const mediaResult = document.getElementById('mediaResult');
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const inputData = inputDataField.value;
+
+            const response = await fetch('/generate_media', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ input_data: inputData }),
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                mediaResult.textContent = JSON.stringify(data.generated_media);
+            } else {
+                mediaResult.textContent = "Failed to generate media.";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "model": {
+    "name": "Kanvas AI",
+    "version": "1.0",
+    "description": "AI for unified media generation."
+  },
+  "api": {
+    "endpoint": "https://api.kanvas.fun",
+    "timeout": 30
+  },
+  "storage": {
+    "assets_path": "data/assets",
+    "model_data_path": "data/model_data"
+  }
+}

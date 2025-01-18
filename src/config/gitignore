@@ -1,0 +1,12 @@
+# Ignore model weights and logs
+models/
+*.h5
+*.pth
+*.log
+
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore configuration and secret files
+settings.yml

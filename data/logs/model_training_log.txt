@@ -1,0 +1,7 @@
+[INFO] Training started at: 2024-08-15 12:00 PM
+[INFO] Loading data from: data/model_data/sample_model_data.json
+[INFO] Training step 1/100 completed
+[INFO] Training step 2/100 completed
+[INFO] Accuracy: 0.92 after step 50
+[ERROR] Memory overload at step 75, retrying...
+[INFO] Training completed successfully at: 2024-08-16 5:00 PM

@@ -1,0 +1,5 @@
+model_type: tensorflow
+model_path: models/kanvas_model_v1.h5
+api_host: 0.0.0.0
+api_port: 5000
+

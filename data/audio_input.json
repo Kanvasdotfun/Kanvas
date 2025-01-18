@@ -1,0 +1,9 @@
+{
+    "audio": {
+      "url": "https://example.com/sample-audio.mp3",
+      "duration": 120,
+      "format": "mp3",
+      "description": "Ambient music for a relaxing environment."
+    }
+  }
+  

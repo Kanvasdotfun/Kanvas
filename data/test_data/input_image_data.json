@@ -1,0 +1,11 @@
+{
+    "input_data": {
+      "image": {
+        "url": "https://example.com/test_image.jpg",
+        "size": "800x600",
+        "format": "jpg"
+      },
+      "description": "Test image input for Kanvas AI"
+    }
+  }
+  

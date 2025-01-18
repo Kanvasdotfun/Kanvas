@@ -1,0 +1,10 @@
+{
+    "model_data": {
+      "data_points": 100000,
+      "last_training_date": "2024-08-15",
+      "accuracy": 0.92,
+      "trained_on": "multi-modal data",
+      "status": "active"
+    }
+  }
+  

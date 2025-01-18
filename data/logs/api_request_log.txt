@@ -1,0 +1,6 @@
+[INFO] API Request received at: 2024-08-17 10:00 AM
+[INFO] Endpoint: /generate_media, Status: success, Response time: 120ms
+[INFO] API Request received at: 2024-08-17 10:05 AM
+[ERROR] Endpoint: /generate_media, Status: error, Error: Invalid input format
+[INFO] API Request received at: 2024-08-17 10:10 AM
+[INFO] Endpoint: /get_model_status, Status: success, Response time: 60ms
