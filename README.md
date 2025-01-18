@@ -66,30 +66,6 @@ Access the API or use the UI for experimenting with Kanvas’ media generation t
 Using the API
 We provide an easy-to-use API to interact with the Kanvas platform. You can read more about how to integrate Kanvas into your own projects in the API documentation.
 
-Project Structure
-The Kanvas repository is organized as follows:
-
-kanvas/
-│
-├── docs/                  # Documentation files (getting started, API reference, etc.)
-├── src/                   # Source code (model, preprocessing, generation, API, etc.)
-│   ├── model/             # AI model and logic for ArtLang
-│   ├── preprocess/        # Data preprocessing and augmentation
-│   ├── generation/        # Logic for hybrid media generation
-│   ├── api/               # API integration and handlers
-│   ├── config/            # Configuration settings for the platform
-│   ├── tests/             # Unit and integration tests
-│
-├── assets/                # Static files (images, logos, etc.)
-├── examples/              # Example usage scripts
-├── scripts/               # Setup and deployment scripts
-├── data/                  # Data files (raw and processed)
-├── models/                # Pre-trained models
-├── notebooks/             # Jupyter notebooks for experiments
-├── LICENSE                # Project license (MIT)
-├── README.md              # Main README file
-├── .gitignore             # Git ignore settings
-├── requirements.txt       # Python dependencies
 Contributing
 We encourage contributions to Kanvas! Whether you're submitting a bug report, suggesting a new feature, or creating pull requests, we welcome your contributions. Please see the CONTRIBUTING.md file for guidelines on how to contribute.
 
